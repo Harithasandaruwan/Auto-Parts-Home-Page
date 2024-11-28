@@ -153,3 +153,143 @@ header.shadow #search-icon {
     background: transparent;
     font-size: 1rem;
 }
+
+.home {
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient( rgba(255, 255, 255, 0.5), rgb(0, 0, 0) 112%),
+    url(images/4-2.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+
+.home-text {
+    padding-left: 130px;
+}
+
+.home-text h1 {
+    font-size: 2.4rem;
+    color: var(--bg-text-color);
+}
+
+.home-text span {
+    color: var(--main-color);
+}
+
+.home-text p {
+    font-size: 0.938rem;
+    font-weight: 300;
+    margin: 0.5rem 0 1.2rem;
+    color: var(--bg-text-color);
+}
+
+.btn {
+    padding: 10px 22px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-weight: 400;
+}
+
+.btn:hover {
+    background: #fd052f;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading span {
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.heading h2 {
+    color: var(--bg-text-color);
+}
+
+.heading p {
+    font-size: 0.938rem;
+    font-weight: 300;
+    color: var(--bg-text-color);
+}
+
+.cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.cars-container .box {
+    flex: 1 1 17rem;
+    position: relative;
+    height: 200px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.cars-container .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.cars-container .box img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.cars-container .box h2 {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background: var(--bg-color);
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+
+.cars-container .box:hover h2 {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-img {
+    flex: 1 1 21rem;
+    transform: scaleX(-1);
+}
+
+.about-text {
+    flex: 1 1 21rem;
+}
+
+.about-text span {
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.about-text h2 {
+    font-size: 1.7rem;
+    color: var(--bg-text-color);
+}
+
+.about-text p {
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1.4rem;
+    color: var(--bg-text-color);
+}
